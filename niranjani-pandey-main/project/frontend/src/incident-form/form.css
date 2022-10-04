@@ -1,0 +1,62 @@
+#incident-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    background-color: white;
+    box-shadow: 5px 5px 10px #423f63;
+    width: 85%;
+    margin-bottom: 2em;
+    padding: 2.5em;
+}
+
+.form-field {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+input {
+    padding: .5em;
+    margin: .5em;
+    width: 40%;
+    background: #F0F0F0;
+    border: 1px solid #423f63;
+}
+
+h2 {
+    margin-top: 0em;
+    margin-left: 1em;
+}
+
+label {
+    font-size: 1.1em;
+}
+
+p {
+    text-align: center;
+}
+
+#submit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    font-size: 1em;
+    height: 4em;
+    width: 20%;
+    background-color: #191a77;
+    border: 1px solid #423f63;
+    color: white;
+}

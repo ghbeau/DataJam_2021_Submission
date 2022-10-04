@@ -1,0 +1,68 @@
+#directory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+#directoryWrapper {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ngo {
+    box-sizing: border-box;
+    width: 48%;
+    margin-bottom: 2em;
+    background-color: white;
+    box-shadow: 5px 5px 10px #423f63;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ngoDataWrapper {
+    padding: 1.5em;
+}
+
+.ngoTitle {
+    margin-top: .5em;
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ngoSubtitle {
+    margin-left: -.25em
+}
+
+.ngoSubtitleText {
+    margin-top: .1em;
+    color: grey;
+    font-size: .75em;
+    display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
+    margin-bottom: .1em;
+}
+
+.divider {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.ngoDescription {
+    margin-top: .5em;
+    margin-bottom: 0em;
+    font-size: 1.125em;
+}

@@ -1,0 +1,43 @@
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#profileData {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profileImage {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+#fieldsWrapper {
+    width: 55%;
+    padding: 2em;
+}
+
+.profileField {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 4em;
+}
+
+.profileFieldTitle {
+    display: inline-block;
+    font-size: 1.5em;
+
+}
+
+.profileFieldValue {
+    display: inline-block;
+    font-size: 1.15em;
+}

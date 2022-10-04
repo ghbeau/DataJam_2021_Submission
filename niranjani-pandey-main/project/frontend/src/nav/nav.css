@@ -1,0 +1,32 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px black solid;
+    background: #080808;
+}
+
+#nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    color: #F5F5F5;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.icon {
+    margin-left: 2em;
+    height: 1.75em;
+    width: 1.75em;
+    margin-top: -.25em;
+}
+
+.settings {
+    margin-right: 2em;
+}
